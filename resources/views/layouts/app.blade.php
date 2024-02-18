@@ -851,7 +851,7 @@
                     <li class="menu-item treatment_main">
                         <a href="javascript:void(0);" class="menu-link menu-toggle waves-effect">
                             <i class="menu-icon tf-icons mdi mdi-cube-outline"></i>
-                            <div>Лечений</div>
+                            <div>Блог</div>
                         </a>
 
 
@@ -866,12 +866,12 @@
 
                             <li class="menu-item treat3">
                                 <a href="{{ route('typetreatments.index') }}" class="menu-link">
-                                    <div>Тип лечений</div>
+                                    <div>Блог</div>
                                 </a>
                             </li>
                             <li class="menu-item treat4">
                                 <a href="{{ route('typetreatments.create') }}" class="menu-link">
-                                    <div>Добавить тип лечений</div>
+                                    <div>Добавить Блог</div>
                                 </a>
                             </li>
                         </ul>

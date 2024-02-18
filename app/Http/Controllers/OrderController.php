@@ -16,10 +16,9 @@ class OrderController extends Controller
     public function index()
     {
         $slides = Order::all();
-        $treatment = Treatments::all();
         return view('components.Order.order', [
             'slides' => $slides,
-            'treatment' => $treatment,
+            
         ]);
     }
 
@@ -54,7 +53,6 @@ class OrderController extends Controller
         $data = $request->validate([
             'name' => 'required',
             'phone' => 'required',
-
         ]);
 
         $order = new Order;

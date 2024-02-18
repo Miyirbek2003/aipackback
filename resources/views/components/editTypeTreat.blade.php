@@ -10,8 +10,8 @@
 @endpush
 
 @section('content')
-    <h4 class="py-3 m-0"><span class="text-muted fw-light">Тип лечений /</span> Изменить тип лечений</h4>
-    <h6 class="text-muted">Тип лечений</h6>
+    <h4 class="py-3 m-0"><span class="text-muted fw-light">Блог /</span> Изменить Блог</h4>
+    <h6 class="text-muted">Блог</h6>
     <div class="row">
         <div class="col-xl-12">
             <div class="card mb-4">

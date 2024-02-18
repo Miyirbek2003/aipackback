@@ -16,7 +16,7 @@
                                 <i class="menu-icon tf-icons mdi mdi-cube-outline"></i>
 
                             </h2>
-                            <p class="card-text text-white">Количества тип лечений</p>
+                            <p class="card-text text-white">Количества Блог</p>
                         </div>
 
                     </div>

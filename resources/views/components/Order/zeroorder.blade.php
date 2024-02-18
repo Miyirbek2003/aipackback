@@ -10,7 +10,6 @@
                 <thead>
                     <tr class="text-center">
                         <th>ID</th>
-                        <th>Лечения</th>
                         <th>Клиент</th>
                         <th>Телефон</th>
                         <th>Время</th>

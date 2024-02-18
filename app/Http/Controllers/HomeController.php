@@ -31,22 +31,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $slide = Slide::count();
-        $workers = Employee::count();
-        $treatment = Treatments::count();
         $typeTreat = TypeTreatments::count();
-        $feed = Feedback::count();
-        $imageSlide = ImageSlide::count();
         $order = Order::where('status', '1')->count();
 
         return view('components.home', [
             'user' => Auth::user(),
-            'slide' => $slide,
-            'workers' => $workers,
-            'treatment' => $treatment,
             'typeTreat' => $typeTreat,
-            'feed' => $feed,
-            'imageSlide' => $imageSlide,
             'order' => $order,
         ]);
     }
