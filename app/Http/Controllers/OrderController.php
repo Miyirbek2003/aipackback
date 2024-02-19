@@ -25,10 +25,10 @@ class OrderController extends Controller
     public function zeroindex()
     {
         $slides = Order::all();
-        $treatment = Treatments::all();
+        
         return view('components.Order.zeroorder', [
             'slides' => $slides,
-            'treatment' => $treatment,
+            
         ]);
     }
     /**
